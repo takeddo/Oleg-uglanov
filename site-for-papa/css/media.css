@@ -1,0 +1,648 @@
+@media (max-width: 1450px) {
+    header {
+        height: 80vh;
+        background-size: cover;
+    }
+
+    .greyblock {
+        width: 1100px;
+        padding-left: auto;
+    }
+
+    .greyblock h1 {
+        font-size: 72px;
+    }
+
+    .container-car {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left: auto;
+        padding-right: auto;
+    }
+
+    .about-car {
+        background-size: cover;
+    }
+
+    .title-block {
+        margin-top: 200px;
+        width: 700px;
+        height: 50px;
+    }
+
+    .bgblock h2 {
+        margin: -25px 60px;
+        font-size: 50px;
+    }
+
+    .sub-bgblock {
+        width: 600px;
+        height: 50px;
+    }
+
+    .sub-bgblock h3 {
+        padding: 4px 0;
+        font-size: 30px;
+    }
+
+    .team {
+        background-size: cover;
+    }
+
+    .container-team {
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .team-block {
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 1000px;
+    }
+
+    .team-block h1 {
+        font-size: 54px;
+    }
+
+    .cars-block  {
+        width: 300px;
+    }
+
+    .cars-block h3 {
+        padding: -5px;
+        font-size: 22px;
+        letter-spacing: 0em;
+    }
+
+    .drivers-block {
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .drivers-block h3 {
+        font-size: 24px;
+        letter-spacing: 0em;
+    }
+
+    .oleg-bg {
+        width: 250px;
+        height: 250px;
+    }
+
+    .sasha-bg {
+        width: 280px;
+        height: 250px;
+    }
+
+    .works {
+        background-size: cover;
+    }
+
+    .works-title {
+        margin-top: 10px;
+        width: 250px;
+        height: 50px;
+        padding: 0 15px;
+    }
+
+    .works-block h1 {
+        font-size: 34px;
+    }
+
+    .description {
+        flex-direction: row;
+    }
+
+    .first-description {
+        margin-right: 0;
+    }
+
+    .first-description h3 {
+        font-size: 24px;
+    }
+
+    .first-description img {
+        max-width: 350px;
+        height: 350px;
+    }
+
+    .second-description {
+        margin-right: 70px;
+    }
+
+
+    .second-description img {
+        max-width: 350px;
+        height: 350px;
+    }
+
+    .third-description img {
+        max-width: 350px;
+        height: 350px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .about-title {
+        margin-right: 0;
+    }
+
+    .oleg-bg {
+        width: 200px;
+        height: 200px;
+    }
+
+    .sasha-bg {
+        width: 200px;
+        height: 200px;
+    }
+
+    .footer {
+        background-size: cover;
+    }
+
+    .footer-title {
+        width: 900px;
+        height: 70px;
+        padding: 10px 55px;
+    }
+
+    .footer-title h2 {
+        font-size: 38px;
+    }
+
+    .photos {
+        margin-top: 20px;
+        width: 500px;
+        height: 500px;
+    }
+
+    .photos > * {
+        width: 400px;
+    }
+
+    .buttons {
+        margin-top: 20px;
+        width: 300px;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 1110px) {
+    .greyblock {
+        width: 1100px;
+        margin-left: auto;
+    }
+
+    .greyblock h1 {
+        font-size: 66px;
+    }   
+
+    .team-block {
+        width: 600px;
+        height: 100px;
+    }
+
+    .team-block h1 {
+        margin: 0;
+        font-size: 30px;
+    }
+
+
+    .about-title {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        margin-right: 0;
+    }
+
+    .drivers {
+        margin-top: 290px;
+    }
+
+    .oleg-bg {
+        width: 200px;
+        height: 200px;
+    }
+
+    .sasha-bg {
+        width: 200px;
+        height: 200px;
+    }
+
+    .cars-block  {
+        width: 300px;
+        height: 50px;
+        margin-right: 0;
+    }
+
+    .cars-block h3 {
+        margin: -3px 35px;
+        font-size: 40px;
+        letter-spacing: 0em;
+    }
+
+    .drivers-block {
+        width: 280px;
+        height: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .drivers-block h3 {
+        padding: 0px 55px;
+        font-size: 28px;
+        letter-spacing: 0em;
+    }
+
+    .description {
+        flex-direction: column;
+    }
+
+    .first-description {
+        margin-right: 0;
+    }
+
+    .first-description h3 {
+        font-size: 24px;
+    }
+
+    .first-description img {
+        width: 350px;
+        height: 230px;
+    }
+
+    .second-description {
+        margin-right: 100px;
+    }
+
+    .second-description h3 {
+        display: none;
+    }
+
+    .second-description img {
+        width: 350px;
+        height: 230px;
+        margin-left: 95px;
+    }
+
+    .third-description h3 {
+        display: none;
+    }
+
+    .third-description img {
+        width: 350px;
+        height: 230px;
+        margin-left: 5px;
+    }
+}
+
+@media (max-width: 1050px) {
+    .greyblock {
+        max-width: 900px;
+    }   
+}
+
+@media (max-width: 950px) {
+    .greyblock {
+        max-width: 500px;
+        margin: 250px 190px;
+    }
+
+    .greyblock h1 {
+        font-size: 44px;
+    }
+
+    .footer-title {
+        width: 700px;
+        height: 50px;
+        padding: 5px 55px;
+    }
+
+    .footer-title h2 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 820px) {
+    .container {
+        margin: 50px -35px;
+        margin-top: 0;
+    }
+
+    .greyblock {
+        margin: 250px 50px;
+    }
+
+    .title-block {
+        margin-top: 0px;
+        width: 600px;
+        height: 100px;
+    }
+
+    .bgblock h2 {
+        margin: -25px 60px;
+        font-size: 44px;
+    }
+
+    .sub-bgblock {
+        width: 500px;
+        height: 50px;
+    }
+
+    .sub-bgblock h3 {
+        padding: 4px 0;
+        font-size: 24px;
+    }
+
+    .more-bgblock {
+        width: 450px;
+        height: 50px;
+    }
+
+    .more-bgblock h3 {
+        padding: 4px 0;
+        font-size: 26px;
+    }
+
+    .footer-title {
+        width: 400px;
+        height: 60px;
+    }
+
+    .footer-title h2 {
+        font-size: 20px;
+        padding: -15px 1px;
+    }
+}
+
+@media (max-width: 600px) {
+    .team-block {
+        width: 400px;
+        height: 50px;
+    }
+
+    .team-block h1 {
+        margin: -25px 20px;
+        font-size: 20px;
+    }
+
+
+    .about-title {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        margin-right: 0;
+    }
+
+    .drivers {
+        margin-top: 290px;
+    }
+
+    .oleg-bg {
+        margin-right: 15px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .sasha-bg {
+        width: 200px;
+        height: 200px;
+    }
+
+    .cars-block  {
+        width: 280px;
+        height: 50px;
+        margin-right: 0;
+    }
+
+    .cars-block h3 {
+        margin: -3px 56px;
+        font-size: 24px;
+        letter-spacing: 0em;
+    }
+
+    .drivers-block {
+        width: 250px;
+        height: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .drivers-block h3 {
+        margin: -7px 1px;
+        font-size: 24px;
+        letter-spacing: 0em;
+    }
+}
+
+@media (max-width: 550px) {
+    .works-title {
+        margin-top: 8px;
+    }
+
+    .container {
+        margin: 50px 50px;
+        margin-top: 0;
+    }
+
+    .greyblock {
+        margin: 150px 50px;
+        max-width: 400px;
+        margin: 250px 0px;
+        height: 80px;
+    }    
+    .greyblock h1 {
+        margin: -55px;
+        font-size: 32px;
+    }
+
+    .title-block {
+        margin: 50px 50px;
+        margin-top: 20px;
+        width: 350px;
+        height: 50px;
+    }
+
+    .bgblock h2 {
+        font-size: 20px;
+    }
+
+    .sub-bgblock {
+        margin: 5px 10px;
+        width: 350px;
+        height: 50px;
+    }
+
+    .sub-bgblock h3 {
+        padding: 4px 0;
+        font-size: 16px;
+    }
+
+    .more-bgblock {
+        margin: 10px 50px;
+        width: 300px;
+        height: 50px;
+    }
+
+    .more-bgblock h3 {
+        padding: 4px 0;
+        font-size: 16px;
+    }
+
+    .button {
+        margin: 20px;
+        width: 200px;
+        height: 60px;
+        padding: 10px;
+        font-size: 22px;
+    }
+
+    .footer-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .footer-title {
+        width: 320px;
+        height: 90px;
+    }
+
+    .footer-title h2 {
+        font-size: 20px;
+        padding: -15px 1px;
+    }
+
+    .photos {
+        width: 280px;
+        height: 300px;
+    }
+
+    .buttons {
+        margin-top: 250px;
+        width: 250px;
+    }
+
+    .buttons > * {
+        margin-bottom: 10px;
+    }
+
+    .first-description h3 {
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+    }
+
+    .none {
+        display: none;
+    }
+
+    .photos {
+        width: 220px;
+        height: 220px;
+    }
+
+    .photos > * {
+        margin-left: 0;
+    }
+
+    .buttons {
+        margin: 100px 80px; 
+    }
+}
+
+@media (max-width: 420px) {
+    .container {
+        margin: 5px 35px;
+        margin-top: 0;
+    }
+    .greyblock {
+        max-width: 300px;
+        height: 20px;
+        margin: 250px 0px;
+    }    
+    .greyblock h1 {
+        margin: -60px -80px;
+        font-size: 28px;
+    }   
+
+    .title-block {
+        width: 340px;
+    }
+
+    .bgblock h2 {
+        font-size: 19px;
+    }
+
+    .sub-bgblock{
+        width: 320px;
+    }
+
+    .sub-bgblock h3 {
+        font-size: 17px;
+    }
+
+    .team-block {
+        margin-top: 15px;
+        width: 330px;
+    }
+
+    .team-block h1 {
+        font-size: 17px;
+    }
+
+    .drivers {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .drivers img {
+        margin-top: 2px;
+        margin-right: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .oleg-bg {
+        width: 108px;
+        height: 108px;
+        margin-bottom: 5px;
+    }
+
+    .sasha-bg {
+        width: 108px;
+        height: 108px;
+    }
+
+    .first-description img {
+        width: 280px;
+        height: 240px;
+        margin-left: 25px;
+    }
+
+    .second-description img {
+        width: 280px;
+        height: 240px;
+    }
+
+    .third-description img {
+        width: 280px;
+        height: 240px;
+    }
+}
