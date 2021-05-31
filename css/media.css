@@ -4,6 +4,10 @@
         background-size: cover;
     }
 
+    #blurblock {
+        background-color: #323232;
+    }
+
     .greyblock {
         width: 1100px;
         padding-left: auto;
